@@ -33,6 +33,7 @@ Você pega a cópia do repositório de alguém, mas o repositório orignial fica
 
 #Comandos  
 Por fim, passarei comandos básicos que vocês usarão muito.  
+
 -git config --global user.name ""  
 -git config --global user.email ""  
 -git config --global core.editor ""  
@@ -60,7 +61,8 @@ Por fim, passarei comandos básicos que vocês usarão muito.
 -git config --global alias.s status <- configuração de hotkey com exemplo  
 -git rever [codigo commit] <- Ele volta, mas não perde o commit bugado  
   
-=====logs======  
+Logs  
+
 -git log <- logs  
 -git log --decorate <- informações  
 -git log --author "" <- logs por autor  
@@ -68,20 +70,20 @@ Por fim, passarei comandos básicos que vocês usarão muito.
 -git shortlog -sn <- quantos commits e pessoas  
 -git show [codigo] <- commits  
   
-===============  
+ 
   
   
-=====Acesso remoto=======  
+Acesso remoto   
+
 -git remote add  
 -git remote <- mostra qual  
 -git remote -v <- endereço  
 -git push -u [pra onde] [branch que estou] <- manda pro repositório  
 -git push [pra onde] [branch que estou] <- manda modificações  
 -g clone [endereço] [novo nome]  
-
-========================  
   
-==================BRANCHS  
+  
+BRANCHS    
   
 -git checkout -b [nome] <- cria um branch  
 -git branch <- lista os branchs e destaca o que você esta usando  

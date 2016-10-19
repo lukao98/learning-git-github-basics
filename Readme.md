@@ -31,59 +31,59 @@ Suponha-se que você tenha a branch master e mais uma, para você agrupar essa b
 Você pega a cópia do repositório de alguém, mas o repositório orignial fica intacto. Muito usado para fazer contribuições em projetos.
 
 
-#Comandos
-Por fim, passarei comandos básicos que vocês usarão muito.
-*git config --global user.name ""
-*git config --global user.email ""
-*git config --global core.editor ""
-*git config --list
+#Comandos  
+Por fim, passarei comandos básicos que vocês usarão muito.  
+-git config --global user.name ""  
+-git config --global user.email ""  
+-git config --global core.editor ""  
+-git config --list  
+  
+  
+-mkdir git-course <- Cria a pasta  
+-cd git-course <- Acessa a pasta  
+-git init <- Repositório  
+-ls -la <- infos  
+-cd. git/ <- visualiza  
+  
+  
+-git status <- como está o repositório  
+-git add <- adiciona  
+-git commit -m <- mensagem  
+-git diff <- mostra as mudanças  
+-git diff --name only <- mostra o nome dos arquivos modificados  
+-git checkout <- volta para a versão anterior  
+-git reset HEAD(volta para o ponteiro) <- tira do stage  
+-git reset --soft <- mata o commit, mas o arquivo está pronto para ser commitado  
+-git reset --mixed <- Volta para antes do staged(modified)  
+-git reset --hard <- Ignora tudo o que foi feito  
+-git stash <- Não manda a mudança, guarda ela (ainda trabalhando nela)  
+-git config --global alias.s status <- configuração de hotkey com exemplo  
+-git rever [codigo commit] <- Ele volta, mas não perde o commit bugado  
+  
+=====logs======  
+-git log <- logs  
+-git log --decorate <- informações  
+-git log --author "" <- logs por autor  
+-git shortlog <- ordem alfabetica dos logs, quais commits e quantos commits  
+-git shortlog -sn <- quantos commits e pessoas  
+-git show [codigo] <- commits  
+  
+===============  
+  
+  
+=====Acesso remoto=======  
+-git remote add  
+-git remote <- mostra qual  
+-git remote -v <- endereço  
+-git push -u [pra onde] [branch que estou] <- manda pro repositório  
+-git push [pra onde] [branch que estou] <- manda modificações  
+-g clone [endereço] [novo nome]  
 
-
--mkdir git-course <- Cria a pasta
--cd git-course <- Acessa a pasta
--git init <- Repositório
--ls -la <- infos
--cd. git/ <- visualiza
-
-
--git status <- como está o repositório
--git add <- adiciona
--git commit -m <- mensagem
--git diff <- mostra as mudanças
--git diff --name only <- mostra o nome dos arquivos modificados
--git checkout <- volta para a versão anterior
--git reset HEAD(volta para o ponteiro) <- tira do stage
--git reset --soft <- mata o commit, mas o arquivo está pronto para ser commitado
--git reset --mixed <- Volta para antes do staged(modified)
--git reset --hard <- Ignora tudo o que foi feito
--git stash <- Não manda a mudança, guarda ela (ainda trabalhando nela)
--git config --global alias.s status <- configuração de hotkey com exemplo
--git rever [codigo commit] <- Ele volta, mas não perde o commit bugado
-
-=====logs======
--git log <- logs
--git log --decorate <- informações
--git log --author "" <- logs por autor
--git shortlog <- ordem alfabetica dos logs, quais commits e quantos commits
--git shortlog -sn <- quantos commits e pessoas
--git show [codigo] <- commits
-
-===============
-
-
-=====Acesso remoto=======
--git remote add
--git remote <- mostra qual
--git remote -v <- endereço
--git push -u [pra onde] [branch que estou] <- manda pro repositório
--git push [pra onde] [branch que estou] <- manda modificações
--g clone [endereço] [novo nome]
-
-========================
-
-==================BRANCHS
-
--git checkout -b [nome] <- cria um branch
--git branch <- lista os branchs e destaca o que você esta usando
--git checkout [nome] <- muda para este branch
--git branch -d <- Deleta o branch
+========================  
+  
+==================BRANCHS  
+  
+-git checkout -b [nome] <- cria um branch  
+-git branch <- lista os branchs e destaca o que você esta usando  
+-git checkout [nome] <- muda para este branch  
+-git branch -d <- Deleta o branch  

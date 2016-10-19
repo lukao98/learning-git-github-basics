@@ -1,6 +1,6 @@
 #Git
 Git é um sistema de controle de versão. Diferente dos outros sistemas, ele atua com o "estado" dos arquivos, com os famosos snapshots.
-A empresa BitKeeper guardava todo o codigo do kernel e após uma desavença da BitKeeper com a Linux Foundation, Linus Torvalds ficou decidido em fazer um sistema de versionamento e então o Git nasceu trazendo algumas melhorias, tais como: Maior velocidade, um design mais simples, ele consegue lídar com projetos grandes, etc...
+A empresa BitKeeper guardava todo o codigo do kernel e após uma desavença da BitKeeper com a Linux Foundation, Linus Torvalds ficou decidido em fazer um sistema de versionamento e então o Git nasceu trazendo algumas melhorias, tais como: Maior velocidade, um design mais simples, facilidade para lídar com projetos grandes, etc...
 
 ##O que é "Github"?
 É um serviço web onde são acoplados os projetos que usam o sistema Git.

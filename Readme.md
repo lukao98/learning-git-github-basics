@@ -6,10 +6,10 @@ A empresa BitKeeper guardava todo o codigo do kernel e após uma desavença da B
 É um serviço web onde são acoplados os projetos que usam o sistema Git.
 
 ##Ciclo de vida dos arquivos
--Untracked: Momento em que o arquivo acabou de ser adicionado no repositório.
--Unmodified: O arquivo não sofreu alterações.
--Modified: O arquivo foi modificado.
--Staged: Depois de modificado, você pode jogar esse arquivo em uma área onde você cria uma versão, essa área se chama staged.
+-Untracked: Momento em que o arquivo acabou de ser adicionado no repositório.  
+-Unmodified: O arquivo não sofreu alterações.  
+-Modified: O arquivo foi modificado.  
+-Staged: Depois de modificado, você pode jogar esse arquivo em uma área onde você cria uma versão, essa área se chama staged.  
 
 ##O que é um branch?
 Branch é um ponteiro móvel que aponta para um commit. Você tem o principal, que é o "master" e poderá criar outros.

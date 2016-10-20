@@ -39,32 +39,31 @@ Por fim, passarei comandos básicos que vocês usarão muito.
 - git config --global core.editor ""  
 - git config --list  
   
-  
-- mkdir git-course <- Cria a pasta  
-- cd git-course <- Acessa a pasta  
+ 
+- mkdir [nome da pasta] <-- Cria a pasta  
+- cd [nome da pasta] <- Acessa a pasta  
 - git init <- Repositório  
-- ls -la <- infos  
-- cd. git/ <- visualiza  
+- ls -la <- infos   
   
   
-- git status <- como está o repositório  
-- git add <- adiciona  
-- git commit -m <- mensagem  
-- git diff <- mostra as mudanças  
-- git diff --name only <- mostra o nome dos arquivos modificados  
-- git checkout <- volta para a versão anterior  
-- git reset HEAD(volta para o ponteiro) <- tira do stage  
-- git reset --soft <- mata o commit, mas o arquivo está pronto para ser commitado  
+- git status <- Status do repositório
+- git add <- Adiciona arquivos do diretório
+- git commit -m <- Commita com uma mensagem
+- git diff <- Mostra as mudanças  
+- git diff --name only <- Mostra o nome dos arquivos modificados  
+- git checkout <- Volta para a versão anterior  
+- git reset HEAD(volta para o ponteiro) <- Tira do stage  
+- git reset --soft <- Mata o commit, mas o arquivo está pronto para ser commitado  
 - git reset --mixed <- Volta para antes do staged(modified)  
 - git reset --hard <- Ignora tudo o que foi feito  
 - git stash <- Não manda a mudança, guarda ela (ainda trabalhando nela)  
-- git config --global alias.s status <- configuração de hotkey com exemplo  
+- git config --global alias.s status <- Configuração de hotkey com exemplo  
 - git rever [codigo commit] <- Ele volta, mas não perde o commit bugado  
   
 Logs  
 
 - git log <- logs  
-- git log --decorate <- informações  
+- git log --decorate <- Informações  
 - git log --author "" <- logs por autor  
 - git shortlog <- ordem alfabetica dos logs, quais commits e quantos commits  
 - git shortlog -sn <- quantos commits e pessoas  
@@ -75,17 +74,16 @@ Logs
   
 Acesso remoto   
 
-- git remote add  
-- git remote <- mostra qual  
-- git remote -v <- endereço  
-- git push -u [pra onde] [branch que estou] <- manda pro repositório  
-- git push [pra onde] [branch que estou] <- manda modificações  
-- g clone [endereço] [novo nome]  
+- git remote add  <- Adiciona endereço remoto
+- git remote <- Mostra qual endereço remoto esta
+- git remote -v <- Endereço  
+- git push -u [pra onde] [branch que estou] <- Manda pro repositório      
+- g clone [endereço] [novo nome] <- Clona 
   
-  
+ 
 BRANCHS    
   
-- git checkout -b [nome] <- cria um branch  
-- git branch <- lista os branchs e destaca o que você esta usando  
+- git checkout -b [nome] <- Cria um branch  
+- git branch <- Lista os branchs e destaca o que você esta usando  
 - git checkout [nome] <- muda para este branch  
 - git branch -d <- Deleta o branch  
